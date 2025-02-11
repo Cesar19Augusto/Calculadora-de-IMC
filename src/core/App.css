@@ -1,0 +1,36 @@
+body{
+    background-color: var(--Background);
+}
+
+p {
+    color: var(--text-one);
+    font-size: 16px;
+}
+.pesquisa{
+    display: grid;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 41px;
+}
+input {
+    width: 421px;
+    height: 45px;
+    outline: none;
+    border: 1px solid var(--Border-input-and-BG-button);
+    border-radius: 5px;
+    margin-bottom: 41px;
+}
+
+.btnContainer > button {
+    width: 420px;
+    height: 45px;
+    border:none;
+    background-color: var(--Border-input-and-BG-button);
+    color: var(--Background);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+img {
+    margin-top: 148px;
+}

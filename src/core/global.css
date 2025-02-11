@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+:root {
+    --Background: #F4F4F4;
+    --Text-one: #505050;
+    --Text-two: #ABABAB;
+    --Placeholder: #ABABAB;
+    --Text-button: #FFFFFF;
+    --Border-input-and-BG-button: #E85B81;
+    --Disabled-input: rgb(232 91 129 / 0.5);
+}
