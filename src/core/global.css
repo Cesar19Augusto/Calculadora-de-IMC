@@ -14,3 +14,26 @@
     --Border-input-and-BG-button: #E85B81;
     --Disabled-input: rgb(232 91 129 / 0.5);
 }
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.text {
+    font-weight: bold;
+}
+
+hr {
+    border: none; /* Remove a borda padrão */
+    border-bottom: 2px solid var(--Border-input-and-BG-button); /* Cria uma linha */
+    width: 100%; /* Linha ocupa toda a largura */
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}

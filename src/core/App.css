@@ -29,8 +29,15 @@ input {
     color: var(--Background);
     font-size: 16px;
     font-weight: bold;
+    margin-bottom: 54px;
 }
 
-img {
-    margin-top: 148px;
+.mensagemPre {
+    font-size: 20px;
+    text-align: center;
+    color: var(--Text-two);
+}
+
+img{
+    margin-top: 48px;
 }
