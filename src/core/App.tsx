@@ -30,7 +30,7 @@ function App() {
       ) : (
         <Table resultadoImc={resultadoImc} peso={peso} altura={altura}/> 
       )}
-      <img src="src\assets\tabelaimc.png" alt="tabela IMC" />
+      <img src="src\assets\tambela_imc.png" alt="Tabela IMC" />
     </div>
   )
 }
