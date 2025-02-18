@@ -30,7 +30,7 @@ function App() {
       ) : (
         <Table resultadoImc={resultadoImc} peso={peso} altura={altura}/> 
       )}
-      <img src="C:\Users\augus\OneDrive\Área de Trabalho\Projetinhos_VSCode\Mini Projeto\Calculadora de IMC\src\assets\tabelaimc.png" alt="tabela IMC" />
+      <img src="src\assets\tabelaimc.png" alt="tabela IMC" />
     </div>
   )
 }
