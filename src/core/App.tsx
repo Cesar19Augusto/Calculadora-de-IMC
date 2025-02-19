@@ -1,6 +1,7 @@
 import './App.css'
 import Table from '../components/Table';
 import { useState } from 'react';
+import tabelaImg from '../assets/tambela_imc.png';
 
 function App() {
   const [peso, setPeso] = useState<number>(0);
@@ -30,7 +31,7 @@ function App() {
       ) : (
         <Table resultadoImc={resultadoImc} peso={peso} altura={altura}/> 
       )}
-      <img src="src\assets\tambela_imc.png" alt="Tabela IMC" />
+      <img src={tabelaImg} />
     </div>
   )
 }
