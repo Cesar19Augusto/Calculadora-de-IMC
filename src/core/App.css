@@ -41,3 +41,27 @@ input {
 img{
     margin-top: 48px;
 }
+
+@media screen and (max-width: 426px){
+    .pesquisa{
+        margin-top: 37px;
+    }
+
+    input {
+        width: 336px;
+    }
+
+    .btnContainer > button {
+        width: 336px;
+        margin-bottom: 59px;
+    }
+
+    .mensagemPre {
+        margin: auto;
+    }
+
+    img{
+        margin-top: 44px;
+        width: 343px;
+    }
+}

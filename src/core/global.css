@@ -31,9 +31,10 @@
 }
 
 hr {
-    border: none; /* Remove a borda padrão */
-    border-bottom: 2px solid var(--Border-input-and-BG-button); /* Cria uma linha */
-    width: 100%; /* Linha ocupa toda a largura */
+    border: none; 
+    border-bottom: 2px solid var(--Border-input-and-BG-button); 
+    width: 100%; 
     margin-top: 10px;
     margin-bottom: 10px; 
 }
+
