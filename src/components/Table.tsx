@@ -4,9 +4,10 @@ interface TableProps {
     resultadoImc: number;
     peso: number;
     altura: number;
+    mediaPassagem: string;
 }
 
-function Table({ resultadoImc, peso, altura }: TableProps) {
+function Table({ resultadoImc, peso, altura, mediaPassagem}: TableProps) {
     return (
         <div>
             <div className="grid grid-flow-col text">               
@@ -20,7 +21,7 @@ function Table({ resultadoImc, peso, altura }: TableProps) {
                 <p>{peso}</p>
                 <p>{altura}</p>
                 <p>{resultadoImc.toFixed(2)}</p>
-                <p>Peso Normal</p>
+                <p>{mediaPassagem}</p>
             </div>
         </div>
     )
